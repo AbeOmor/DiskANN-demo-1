@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/6866effa-2bc5-44e0-aaee-d824241a8d0e
 
 [Sample Website](https://diskann-demo-dwgxbdfpgrakcmgf.westus2-01.azurewebsites.net/). This sample application show a sample AirBNB dataset search page:
 * It illustrate the **improved recall** of using DiskANN vs using HNSW. 
-* When a filter is apply you will notice `HNSW index` **doesn't return** the same amount of results as `DiskANN` or `No Index`.
+* When a filter is applied you will notice `HNSW index` **doesn't return** the same amount of results as `DiskANN` or `No Index`.
 
 # Table of Content
 * [Documentation](#documentation)
@@ -33,12 +33,9 @@ Make sure the following tools are installed:
 * [PostgreSQL 16+ and PSQL](https://www.postgresql.org/download/)
 * [Git](https://git-scm.com/downloads)
 
-## Enroll in the `pg_diskann` Preview Feature
-Follow Microsoft documentation for [enrolling in DiskANN preview](https://review.learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgdiskann?branch=pr-en-us-388#enable-pg_diskann-extension)
-
 ## Enable `pg_diskann` extension
 
-Follow Microsoft documentation for [enabling DiskANN](https://review.learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgdiskann?branch=pr-en-us-388#enable-pg_diskann-extension)
+Follow Microsoft documentation for [enabling DiskANN](https://aka.ms/pg-diskann-docs)
 
 ## Setup Seattle AirBnb Data and test DiskANN
 This demo app will show you how DiskANN Index works better that HNSW.
